@@ -2,6 +2,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { HomeScreen, LoginScreen, RegisterScreen, ConvScreen, ProfilScreen } from './src/Screens';
 import { firebase } from './src/firebase/config';
+import 'expo-dev-client'
 
 const Stack = createNativeStackNavigator();
 

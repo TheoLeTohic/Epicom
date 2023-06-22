@@ -9,10 +9,17 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@react-native-google-signin/google-signin": "^10.0.1",
     "@react-navigation/native": "^6.1.6",
     "@react-navigation/native-stack": "^6.9.12",
     "expo": "~48.0.18",
+    "expo-auth-session": "~4.0.3",
+    "expo-crypto": "~12.2.1",
+    "expo-dev-client": "~2.2.1",
+    "expo-random": "~13.1.1",
     "expo-status-bar": "~1.4.4",
+    "expo-updates": "~0.16.4",
+    "expo-web-browser": "~12.1.1",
     "firebase": "^9.22.2",
     "react": "18.2.0",
     "react-native": "0.71.8",
